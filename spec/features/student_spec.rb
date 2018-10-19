@@ -20,7 +20,7 @@ end
 describe 'form page' do
   it 'form renders with the new action' do
     visit new_student_path
-    binding.pry
+  
     expect(page).to have_content("Student Form")
     
   end
