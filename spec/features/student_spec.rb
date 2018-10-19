@@ -1,5 +1,5 @@
 require 'rails_helper'
-require 'pr'y
+require 'pry'
 describe 'Route to view' do
   it 'has an index page' do
     visit students_path
